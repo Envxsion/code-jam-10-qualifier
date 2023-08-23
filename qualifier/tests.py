@@ -1,10 +1,12 @@
 from dataclasses import dataclass
 import unittest
 import unittest.mock
-
 import numpy as np
 from PIL import Image
 
+#add path to python file 
+import os
+os.chdir(r'C:/Users/cyn0v/OneDrive/Documents/GitHub/code-jam-10-qualifier/qualifier/')
 import qualifier
 
 
